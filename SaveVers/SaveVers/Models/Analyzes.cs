@@ -3,7 +3,7 @@
     public class Analyzes
     {
         public int ID { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         public List<Norms> Norms { get; set; }
     }
 }
